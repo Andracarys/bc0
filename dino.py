@@ -20,6 +20,6 @@ pepito = Dino(4,"Pepito")
 pepito.cortar_pata()
 
 """
-En el archivo.py crear una clase Persona con atributo nombre, despues instanciar un obejto de tipo persona.
+En el archivo persona.py crear una clase Persona con atributo nombre, despues instanciar un obejto de tipo persona.
 """
 
