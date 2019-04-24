@@ -16,7 +16,7 @@ class Persona:
         self.nombre = nombre
         self.edad = edad
         self.sexo = sexo
-        print("Hola soy ",self.nombre,", tengo ",self.edad," anhos, y soy ",self.sexo, ".")
+        print("Hola soy ",self.nombre,", tengo ",self.edad," anhos, soy ",self.sexo, ".")
 
     def getnombre(self):
         return self.nombre
@@ -26,6 +26,9 @@ class Persona:
 
     def getsexo(self):
         return self.sexo
+    
+    def bday(self):
+        self.edad = self.edad + 1
 
 Andrea = Persona("Andrea", 28, "mujer")
 
