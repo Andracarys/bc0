@@ -9,7 +9,7 @@ print ("y bueno")
 class Persona:
     
     nombre = None
-    edad = 0
+    edad = None
     sexo = None
 
     def __init__ (self, nombre, edad, sexo):
@@ -21,12 +21,13 @@ class Persona:
     def getnombre(self):
         return self.nombre
     
-     def getedad(self):
+    def getedad(self):
         return self.edad
 
-     def getsexo(self):
+    def getsexo(self):
         return self.sexo
 
-    Andrea = Persona("Andrea", 28, "mujer")
+Andrea = Persona("Andrea", 28, "mujer")
 
+print(Andrea.edad)
 

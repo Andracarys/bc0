@@ -7,15 +7,17 @@ class Dino:
         print("Hola soy un dino," "me llamo", self.nombre, "y tengo", self.patas)
 
     def get_patas(self):
-        return self.patas
+        return self.paatas
 
-    def get_patas(self, cantidad):
-        self.patas = cantidad
+    def set_patas(self, cantidad):
+        self.paatas = cantidad
     
     def cortar_pata(self):
         self.paatas = self.paatas - 1
 
 pepito = Dino(4,"Pepito")
+
+pepito.cortar_pata()
 
 """
 En el archivo.py crear una clase Persona con atributo nombre, despues instanciar un obejto de tipo persona.
