@@ -17,7 +17,11 @@ class Dino:
 
 pepito = Dino(4,"Pepito")
 
-pepito.cortar_pata()
+print(pepito.get_patas())
+
+
+#   pepito.cortar_pata() esto se usa en la terminal
+
 
 """
 En el archivo persona.py crear una clase Persona con atributo nombre, despues instanciar un objeto de tipo persona.
